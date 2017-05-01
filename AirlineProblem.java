@@ -51,10 +51,10 @@ public class AirlineProblem {
             return true;
         }
         else if(airlinesVisited.contains(current))
-            // base case 2, I have already been here
-            // don't go into a cycle
+            
             return false;
-        else{
+        else
+        {
             // I have not been here and it isn't
             // the goal so check its partners
             // now I have been here
